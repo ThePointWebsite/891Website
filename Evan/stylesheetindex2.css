@@ -1,0 +1,79 @@
+html { /* Background for entire page */
+	background: (90% white, 10% red)
+}
+div #header {
+
+}
+#header h1 { /* Position and style of slogan */
+	padding: 7% 0% 0% 15%;
+	font-family: sans-serif;
+	height: 10px;
+}
+#header h2 { /* Position and style of request line */
+	padding: 0px 0% 0% 15%;
+	font-family: sans-serif;
+	width: 400px;
+	height: 10px;
+	float: left;
+}
+#header ul { /* Positioning of nav bar */
+	float: right;
+	list-style-type: none;
+	padding-right: 15%;
+	display: block;
+}
+#header ul li{ /* Intended to be nav bar */
+	font-family: sans-serif;
+	display: inline;
+	border-left: 1px solid black;
+	margin-left: 10px;
+	padding-left: 15px;
+	padding-right: 5px;
+	margin-bottom: auto;
+}
+#slideshow { /* For pictures and headlines */
+	width: 800px;
+	height: 400px;
+	margin: 100px 0 0 15%;
+	background-color: black;
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 3px;
+}
+#newsTitle ul { /* Total positioning of the news headers */
+	float:left;
+	list-style-type: none;
+	font-family: sans-serif;
+	width: 800px;
+	height: 60px;
+	margin: 25px 0 0 15%;
+}
+#newsTitle ul li { /* Content inside news header blocks */
+	text-align: center;
+	color: white;
+	display: inline-block;
+	margin: 10px 15px 4px 15px;
+	width: 150px;
+	border-radius: 3px 3px 0 0;
+	padding: 10px 0;
+	background-color: red;
+	box-shadow: 2px 2px 2px gray;
+}
+#newsBody ul { /* Positioning of news content */
+	float: left;
+	list-style-type: none;
+	font-family: sans-serif;
+	width: 800px;
+	height: 1000px;
+	margin: 5px 0 0 15%;
+}
+#newsBody ul li { /* Style and dimension of news content boxes */
+	display: inline-block;
+	margin: 10px 15px 4px 15px;
+	padding: 5px;
+	width: 140px;
+	border-radius: 0 0 3px 3px;
+	color:black;
+	background-color: lightgray;
+	box-shadow: 1px 1px 1px gray;
+}
+/* It's 3:45 a.m., and I'm too damn tired. */
